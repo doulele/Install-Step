@@ -34,3 +34,12 @@
 5. (\*)"git reset"如果发现"git add "操作有误，可以使用侧命令
 6. `git commit -m "注释"`提交代码至本地并且必须书写注释
 7. `git push`提交代码到远程仓库
+
+
+# stylus安装
+1. node.js安装
+        百度node.js下载安装
+2. Stylus安装
+        全局安装，安装之前你需要进行第一步安装 nodejs，然后打开cmd 输入"npm install stylus -g"。（如果出现windows_NT 6.1.7601...则先输入npm config set strict-ssl false和npm config set registry http://registry.cnpmjs.org （镜像，中国））。这样就算是安装完Stylus了，也可以正常使用Stylus。
+3. 打开subline
+        ctrl+shift+p调出控制台，然后输入"install package"回车（如果没有下载搞管理工具则Package Control下载：http://pan.baidu.com/s/1hrp0anM，放到sublime3（在sublime的preference-Brows package）下的install packages目录下），再弹出的窗口中输入"stylus"然后回车安装，安装成功后在view中的Syntax可以选择stylus模式。
