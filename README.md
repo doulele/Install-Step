@@ -1,5 +1,5 @@
 # sublime3 包管理工具的安装
-1. 下载sublime3;(https://pan.baidu.com/s/1yoNVRAwnrKzO0xTmTx6Isg) 
+1. 下载sublime3;(https://pan.baidu.com/s/1synTkEr8FQkQEBy3hxaVsw) 
 2. 复制package control文件到perferences>Browse package目录下;复制channel_v3.json文件到一个不会随意删除的地方;修改package control setting-Default下的channels地址为channel_v3.json的绝对地址;
 3. 重启sublime;
 
