@@ -2,7 +2,7 @@
 1. 下载sublime3;(https://pan.baidu.com/s/1synTkEr8FQkQEBy3hxaVsw) 
 2. 复制package control文件到perferences>Browse package目录下;复制channel_v3.json文件到一个不会随意删除的地方;修改package control setting-Default下的channels地址为channel_v3.json的绝对地址;
 3. 重启sublime;
-
+4. 或者直接下载破解版:https://pan.baidu.com/s/19uIpaQ9XemT997SFClJcvg
 
 # stylus安装
 1. node.js安装
@@ -12,6 +12,13 @@
 3. 打开subline
         ctrl+shift+p调出控制台，然后输入"install package"回车（如果没有下载包管理工具Package Control则下载：http://pan.baidu.com/s/1hrp0anM 放到sublime3（在sublime的preference-Brows package）下的install packages目录下），再弹出的窗口中输入"stylus"然后回车安装，安装成功后在view中的Syntax可以选择stylus模式。
         
+# 配置sublime php环境
+
+  stp1: sublime安装sublimeLiner修改user-seting;
+
+  stp2: 新建编译系统修改默认文件并改名php-sublime-build保存默认目录；
+
+  stp3: 配置php环境变量高级系统设置-环境变量-编辑系统变量-新建把php.exe的目录填入；[可参阅](https://www.cnblogs.com/cisum/p/7999443.html)
         
 # 使用github桌面版向github上传代码
 ### 在远程的git服务器上创建一个代码库
